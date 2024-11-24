@@ -21,4 +21,4 @@ This project implements the Birch clustering algorithm and tests it on the digit
   - Completeness Score: 0.32
 
 ### Wizualizacja:
-![Clusters by Birch](path_to_image.png)
+![Clusters by Birch](clusters.png)
