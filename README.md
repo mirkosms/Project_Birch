@@ -11,14 +11,14 @@ This project implements the Birch clustering algorithm and tests it on the digit
 - `test_birch.py`: Unit tests for the Birch implementation.
 - `Birch_analysis.ipynb`: Notebook for analyzing and visualizing clustering results.
 
-## Wyniki algorytmu Birch na zbiorze `digits`
+## Results of the Birch Algorithm on the `digits` Dataset
 
-- **Parametry:**
+- **Parameters:**
   - `threshold`: 15
   - `branching_factor`: 50
-- **Metryki:**
+- **Metrics:**
   - Homogeneity Score: 1.0
   - Completeness Score: 0.32
 
-### Wizualizacja:
+### Visualization:
 ![Clusters by Birch](clusters.png)
