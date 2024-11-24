@@ -30,8 +30,15 @@ This project implements the Birch clustering algorithm and tests it on the digit
 - **Visualization:**
   ![Clusters by Birch](clusters_threshold_10_branching_30.png)
 
+### Results for `threshold=12` and `branching_factor=40`
+- **Metrics:**
+  - Homogeneity Score: 1.00
+  - Completeness Score: 0.31
+- **Visualization:**
+  ![Clusters by Birch](clusters_threshold_12_branching_40.png)
 
 | Threshold | Branching Factor | Homogeneity Score | Completeness Score |
 |-----------|------------------|-------------------|--------------------|
 | 10        | 30               | 1.00              | 0.30               |
-| ...       | ...              | ...               | ...                |
+| 12        | 40               | 1.00              | 0.31               |
+| 15        | 50               | 1.00              | 0.32               |
