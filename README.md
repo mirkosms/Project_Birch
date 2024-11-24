@@ -42,3 +42,24 @@ This project implements the Birch clustering algorithm and tests it on the digit
 | 10        | 30               | 1.00              | 0.30               |
 | 12        | 40               | 1.00              | 0.31               |
 | 15        | 50               | 1.00              | 0.32               |
+
+## Conclusions
+
+Based on the tested configurations of the Birch algorithm on the `digits` dataset:
+
+1. **Homogeneity Score**:
+   - All tested configurations achieved a perfect homogeneity score of 1.00, indicating that each cluster contains only data points from a single class.
+
+2. **Completeness Score**:
+   - The completeness score slightly improves with higher values of `threshold` and `branching_factor`.
+   - The best completeness score (0.32) was achieved with `threshold=15` and `branching_factor=50`.
+
+3. **Optimal Configuration**:
+   - The most balanced configuration is:
+     - **Threshold**: 15
+     - **Branching Factor**: 50
+     - This configuration provides the best completeness score while maintaining a perfect homogeneity score.
+
+4. **Impact of Parameters**:
+   - **Threshold**: Lower values create more clusters, which might reduce the completeness score.
+   - **Branching Factor**: Lower values can lead to a more detailed clustering structure but may slightly impact completeness.
